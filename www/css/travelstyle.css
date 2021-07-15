@@ -9,10 +9,10 @@ body
  }
 
 /* Псевдоэлементы для линий */
-*, *: before,*: after
- {
+*, *::before ,*::after
+{
 	box-sizing: border-box;
- }
+}
 .contain
 {
  	width: 100%;
@@ -48,7 +48,7 @@ body
 	font-size: 150px;
 	font-weight: 700;
 	color: #fff;
-	top: :0;
+	top: 0;
 	text-transform: uppercase;
   	text-shadow: #fff 1px 1px 0, red -1px -1px 0;
 	line-height: 1;
@@ -62,7 +62,7 @@ body
  }
 
 /* Линия под главным заголовком */
-.intro_title: after
+.intro_title::after
  {
 	content: "";
 	display: block;
@@ -148,7 +148,7 @@ header
 	text-decoration: none;
 	transition: color 0.1s linear; /* плавное изменение цвета */
 }
-.nav_link: after
+.nav_link::after
 {
 	content: "";
 	display: block;
@@ -699,7 +699,7 @@ header
   padding: 20px 20px 20px 20px;
   height: 600px;
  /* margin: auto;  выравнивание по центру */
-  margin: 20px auto 0px;*/
+  margin: 20px auto 0px;
   position: absolute;
   width: 964px ;
 }
