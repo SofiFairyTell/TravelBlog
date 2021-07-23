@@ -5,6 +5,16 @@
 * [PHP MVC STEP BY STEP LIVE PROJECT EXAMPLE](https://www.myprograming.com/php-mvc-step-by-step-live-project-example/)
 > > [PHP MVC STEP BY STEP LIVE PROJECT EXAMPLE](https://github.com/jvadillo/php-mvc-step-by-step)
 
+### Example 
+
+* [Пример шаблона проектирования MVC в PHP](https://otus.ru/nest/post/787/)
+* [Реализация MVC паттерна на примере создания сайта-визитки на PHP](https://habr.com/ru/post/150267/)
+
+# Where host?
+
+* [Github pages - это для размещения страниц их репозитория. Но то ли нужно для работы?](https://pages.github.com/)
+* [Развертываем свой сайт на Heroku](https://habr.com/ru/post/232679/)
+
 # Frameworks
 
 * [8 лучших PHP Framework для веб-разработчиков](https://www.hostinger.ru/rukovodstva/8-luchshih-php-framework-dla-web-razrabotchikov/)
