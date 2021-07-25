@@ -5,6 +5,8 @@
 * [PHP MVC STEP BY STEP LIVE PROJECT EXAMPLE](https://www.myprograming.com/php-mvc-step-by-step-live-project-example/)
 > > [PHP MVC STEP BY STEP LIVE PROJECT EXAMPLE](https://github.com/jvadillo/php-mvc-step-by-step)
 
+* [Урок 91. Создание php MVC приложения. План работ](https://www.youtube.com/watch?v=0cFU08rluAg)
+
 ### Example 
 
 * [Пример шаблона проектирования MVC в PHP](https://otus.ru/nest/post/787/)
