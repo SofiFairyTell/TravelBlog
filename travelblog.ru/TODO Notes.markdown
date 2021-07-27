@@ -1,3 +1,14 @@
+# ИДЕИ!!!!
+
+> Концепцию не меняю: сайт по прежнему про путешествия
+
+> Основной приоритет: Россия
+
+> В качестве первых тестовых данных: Белгородская область 
+
+> > [Вот отсюда можно взять основные достопримечательности](https://tourism.gov.ru/regions/?fedokr=&freg=174)
+
+
 # Php and MVC tutorial
 
 * [How to start your own PHP MVC framework in 4 steps?](https://lancecourse.com/howto/how-to-start-your-own-php-mvc-framework-in-4-steps)
@@ -24,6 +35,8 @@
 * [Что такое CodeIgniter?](https://www.hostinger.ru/rukovodstva/rukovodstvo-po-codeigniter)
 
 * [Fuelphp в полевых условиях](https://habr.com/ru/post/156279/)
+
+* [ANGULAR VS REACT VS VUE: ЛУЧШИЙ ВЫБОР В 2021](https://merehead.com/ru/blog/angular-vs-react-vs-vue-2021/)
 
 
 ## HMVC
