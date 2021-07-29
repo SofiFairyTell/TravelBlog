@@ -19,6 +19,9 @@
 
 * [Урок 91. Создание php MVC приложения. План работ](https://www.youtube.com/watch?v=0cFU08rluAg)
 
+* !!! [Laravel PHP документация](https://laravel.ru/docs/v5/quickstart#%D0%B2%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5)
+
+
 ### Example 
 
 * [Пример шаблона проектирования MVC в PHP](https://otus.ru/nest/post/787/)
@@ -39,6 +42,12 @@
 
 * [ANGULAR VS REACT VS VUE: ЛУЧШИЙ ВЫБОР В 2021](https://merehead.com/ru/blog/angular-vs-react-vs-vue-2021/)
 
+* [Установка Laravel](https://laravel.su/docs/6.x/installation)
+
+* [Laravel + React](https://code.tutsplus.com/ru/tutorials/build-a-react-app-with-laravel-backend-part-2-react--cms-29443)
+
+* [Laravel + Angular](https://medium.com/swlh/how-to-setup-laravel-with-angular-d3de171afa03)
+
 
 ## HMVC
 
@@ -47,3 +56,7 @@
 > Впервые описано в 2000-м году , в одной из статей блога JavaWorld, но некоторые разработчики отмечают, что оно, по сути, является переосмыслением более строгого паттерна PAC (англ.)русск. (англ. Presentation-Abstraction-Control), описанного в 1987 году.
 
 > Согласно парадигме HMVC, каждая отдельная MVC триада используется в качестве слоя в иерархической структуре. При этом, каждая триада в этой иерархии независима от других, и может обратиться к контроллеру другой триады. Такой подход существенно облегчает и ускоряет разработку сложных приложений, облегчает их дальнейшую поддержку и масштабирование, способствует повторному использованию кода.
+
+## Laravel
+
+> Laravel — бесплатный веб-фреймворк с открытым кодом, предназначенный для разработки с использованием архитектурной модели MVC.
