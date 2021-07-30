@@ -30,7 +30,10 @@
 # Where host?
 
 * [Github pages - это для размещения страниц их репозитория. Но то ли нужно для работы?](https://pages.github.com/)
+
 * [Развертываем свой сайт на Heroku](https://habr.com/ru/post/232679/)
+
+* [AWS - amazon web services](https://aws.amazon.com/ru/free/?all-free-tier.sort-by=item.additionalFields.SortRank&all-free-tier.sort-order=asc&awsf.Free%20Tier%20Types=tier%2312monthsfree&awsf.Free%20Tier%20Categories=*all)
 
 # Frameworks
 
@@ -45,6 +48,8 @@
 * [Установка Laravel](https://laravel.su/docs/6.x/installation)
 
 * [Laravel + React](https://code.tutsplus.com/ru/tutorials/build-a-react-app-with-laravel-backend-part-2-react--cms-29443)
+
+> [Начало работы с React](https://developer.mozilla.org/ru/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/React_getting_started)
 
 * [Laravel + Angular](https://medium.com/swlh/how-to-setup-laravel-with-angular-d3de171afa03)
 
