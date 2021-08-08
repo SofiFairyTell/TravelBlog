@@ -21,6 +21,8 @@
 
 * !!! [Laravel PHP документация](https://laravel.ru/docs/v5/quickstart#%D0%B2%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5)
 
+* !!! [Projects In Laravel | Build A Website With October CMS | Part 1](https://www.youtube.com/watch?v=6R1O5jAL85U&ab_channel=EduonixLearningSolutions)
+
 
 ### Example 
 
@@ -52,6 +54,13 @@
 > [Начало работы с React](https://developer.mozilla.org/ru/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/React_getting_started)
 
 * [Laravel + Angular](https://medium.com/swlh/how-to-setup-laravel-with-angular-d3de171afa03)
+
+* [существующая интеграция PHP Laravel 4 с гардеробом CMS](https://coderoad.ru/18831218/%D1%81%D1%83%D1%89%D0%B5%D1%81%D1%82%D0%B2%D1%83%D1%8E%D1%89%D0%B0%D1%8F-%D0%B8%D0%BD%D1%82%D0%B5%D0%B3%D1%80%D0%B0%D1%86%D0%B8%D1%8F-PHP-Laravel-4-%D1%81-%D0%B3%D0%B0%D1%80%D0%B4%D0%B5%D1%80%D0%BE%D0%B1%D0%BE%D0%BC-CMS)
+
+* [CMS на базе Laravel и которая в теории может с ней работать это OctoberCMS](https://octobercms.info/docs/setup-installation)
+
+* [О фреймворке Laravel и CMS на базе него](https://timeweb.com/ru/community/articles/o-freymvorke-laravel-i-cms-na-baze-nego-1)
+
 
 
 ## HMVC
