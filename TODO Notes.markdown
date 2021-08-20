@@ -53,6 +53,8 @@
 
 * [Laravel + Angular](https://medium.com/swlh/how-to-setup-laravel-with-angular-d3de171afa03)
 
+* [Новичку в OctoberCMS](https://tyapk.ru/blog/post/new-to-octobercms)
+
 
 ## HMVC
 
