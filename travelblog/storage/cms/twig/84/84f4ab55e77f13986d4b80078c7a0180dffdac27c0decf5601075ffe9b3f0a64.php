@@ -42,7 +42,7 @@ class __TwigTemplate_14e699fd4c123488ee788efaf6378f81736a7dd8ff654812b210103b24a
         <p class=\"muted credit\">&copy; 2021 - ";
         // line 4
         echo twig_escape_filter($this->env, twig_date_format_filter($this->env, "now", "Y"), "html", null, true);
-        echo " Sofi Fairy-Tell  </p>
+        echo " Sofi Fairy-Tell   </p>
     </div>
 </div>";
     }
@@ -67,7 +67,7 @@ class __TwigTemplate_14e699fd4c123488ee788efaf6378f81736a7dd8ff654812b210103b24a
         return new Source("<div id=\"footer\">
     <div class=\"container\">
         <hr />
-        <p class=\"muted credit\">&copy; 2021 - {{ \"now\"|date(\"Y\") }} Sofi Fairy-Tell  </p>
+        <p class=\"muted credit\">&copy; 2021 - {{ \"now\"|date(\"Y\") }} Sofi Fairy-Tell   </p>
     </div>
 </div>", "C:\\OpenServer\\domains\\TravelBlog-1\\travelblog/themes/demo/partials/site/footer.htm", "");
     }

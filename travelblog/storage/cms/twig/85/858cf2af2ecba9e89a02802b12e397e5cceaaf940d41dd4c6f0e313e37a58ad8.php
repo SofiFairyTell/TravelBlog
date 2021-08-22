@@ -35,6 +35,17 @@ class __TwigTemplate_52bd9115b279585d0e68438fe0de1446cc43c2846953221caa650144963
     protected function doDisplay(array $context, array $blocks = [])
     {
         $macros = $this->macros;
+        // line 1
+        echo "<div class=\"jumbotron\">
+    <div class=\"container\">
+        ";
+        // line 3
+        $context['__cms_content_params'] = [];
+        echo $this->env->getExtension('Cms\Twig\Extension')->contentFunction("welcome.htm"        , $context['__cms_content_params']        );
+        unset($context['__cms_content_params']);
+        // line 4
+        echo "    </div>
+</div>";
     }
 
     public function getTemplateName()
@@ -42,25 +53,34 @@ class __TwigTemplate_52bd9115b279585d0e68438fe0de1446cc43c2846953221caa650144963
         return "C:\\OpenServer\\domains\\TravelBlog-1\\travelblog/themes/demo/pages/main_home.htm";
     }
 
+    public function isTraitable()
+    {
+        return false;
+    }
+
     public function getDebugInfo()
     {
-        return array ();
+        return array (  47 => 4,  43 => 3,  39 => 1,);
     }
 
     public function getSourceContext()
     {
-        return new Source("", "C:\\OpenServer\\domains\\TravelBlog-1\\travelblog/themes/demo/pages/main_home.htm", "");
+        return new Source("<div class=\"jumbotron\">
+    <div class=\"container\">
+        {% content \"welcome.htm\" %}
+    </div>
+</div>", "C:\\OpenServer\\domains\\TravelBlog-1\\travelblog/themes/demo/pages/main_home.htm", "");
     }
     
     public function checkSecurity()
     {
-        static $tags = array();
+        static $tags = array("content" => 3);
         static $filters = array();
         static $functions = array();
 
         try {
             $this->sandbox->checkSecurity(
-                [],
+                ['content'],
                 [],
                 []
             );
