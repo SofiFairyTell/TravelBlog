@@ -7,4 +7,6 @@
   'cms\\Controllers\\themes' => 'modules\\cms\\controllers\\themes.php',
   'backend\\Controllers\\users' => 'modules\\backend\\controllers\\users.php',
   'cms\\Controllers\\index' => 'modules\\cms\\controllers\\index.php',
+  'martin\\forms\\Plugin' => 'plugins\\martin\\forms\\Plugin.php',
+  'Martin\\Forms\\Models\\Record' => 'plugins\\martin\\forms\\models\\Record.php',
 );

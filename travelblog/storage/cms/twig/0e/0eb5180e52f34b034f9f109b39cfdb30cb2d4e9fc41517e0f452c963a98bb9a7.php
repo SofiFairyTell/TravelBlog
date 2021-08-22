@@ -49,7 +49,7 @@ class __TwigTemplate_4704a40089d8493a5dfc98e9487682d4338d7c4923078ac6bdeac9037db
             <a class=\"navbar-brand\" href=\"";
         // line 11
         echo $this->extensions['Cms\Twig\Extension']->pageFilter("main_home");
-        echo "\">October Demo</a>
+        echo "\">TravelBlog</a>
         </div>
         <div class=\"collapse navbar-collapse navbar-main-collapse\">
             <ul class=\"nav navbar-nav\">
@@ -62,7 +62,7 @@ class __TwigTemplate_4704a40089d8493a5dfc98e9487682d4338d7c4923078ac6bdeac9037db
         echo "\"><a href=\"";
         echo $this->extensions['Cms\Twig\Extension']->pageFilter("main_home");
         echo "\">Главная</a></li>
-                <li class=\"";
+                <!-- <li class=\"";
         // line 17
         if ((twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "page", [], "any", false, false, true, 17), "id", [], "any", false, false, true, 17) == "ajax")) {
             echo "active";
@@ -77,7 +77,7 @@ class __TwigTemplate_4704a40089d8493a5dfc98e9487682d4338d7c4923078ac6bdeac9037db
         }
         echo "\"><a href=\"";
         echo $this->extensions['Cms\Twig\Extension']->pageFilter("plugins");
-        echo "\">Plugin components</a></li>
+        echo "\">Plugin components</a></li> -->
             </ul>
         </div>
     </div>
@@ -111,14 +111,14 @@ class __TwigTemplate_4704a40089d8493a5dfc98e9487682d4338d7c4923078ac6bdeac9037db
                 <span class=\"icon-bar\"></span>
                 <span class=\"icon-bar\"></span>
             </button>
-            <a class=\"navbar-brand\" href=\"{{ 'main_home'|page }}\">October Demo</a>
+            <a class=\"navbar-brand\" href=\"{{ 'main_home'|page }}\">TravelBlog</a>
         </div>
         <div class=\"collapse navbar-collapse navbar-main-collapse\">
             <ul class=\"nav navbar-nav\">
                 <li class=\"separator hidden-xs\"></li>
                 <li class=\"{% if this.page.id == 'home' %}active{% endif %}\"><a href=\"{{ 'main_home'|page }}\">Главная</a></li>
-                <li class=\"{% if this.page.id == 'ajax' %}active{% endif %}\"><a href=\"{{ 'ajax'|page }}\"></a></li>
-                <li class=\"{% if this.page.id == 'plugins' %}active{% endif %}\"><a href=\"{{ 'plugins'|page }}\">Plugin components</a></li>
+                <!-- <li class=\"{% if this.page.id == 'ajax' %}active{% endif %}\"><a href=\"{{ 'ajax'|page }}\"></a></li>
+                <li class=\"{% if this.page.id == 'plugins' %}active{% endif %}\"><a href=\"{{ 'plugins'|page }}\">Plugin components</a></li> -->
             </ul>
         </div>
     </div>
