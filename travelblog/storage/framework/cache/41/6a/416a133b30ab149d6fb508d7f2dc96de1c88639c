@@ -1,4 +1,4 @@
-1629632246a:1:{s:15:"site/header.htm";a:6:{s:8:"fileName";s:15:"site/header.htm";s:7:"content";s:1251:"==
+1629691704a:1:{s:15:"site/header.htm";a:6:{s:8:"fileName";s:15:"site/header.htm";s:7:"content";s:1785:"==
 <!-- Nav -->
 <nav id="layout-nav" class="navbar navbar-inverse navbar-fixed-top navbar-autohide" role="navigation">
     <div class="container">
@@ -15,12 +15,16 @@
             <ul class="nav navbar-nav">
                 <li class="separator hidden-xs"></li>
                 <li class="{% if this.page.id == 'home' %}active{% endif %}"><a href="{{ 'main_home'|page }}">Главная</a></li>
+                <li class="{% if this.page.id == 'aboutus' %}active{% endif %}"><a href="{{ 'about-us'|page }}">О нас</a></li>
+                <li class="{% if this.page.id == 'tours' %}active{% endif %}"><a href="{{ 'tours'|page }}">Туры</a></li>
+                <li class="{% if this.page.id == 'feedback' %}active{% endif %}"><a href="{{ 'feedback'|page }}">Отзывы</a></li>
+                <li class="{% if this.page.id == 'contacts' %}active{% endif %}"><a href="{{ 'contacts'|page }}">Контакты</a></li>
                 <!-- <li class="{% if this.page.id == 'ajax' %}active{% endif %}"><a href="{{ 'ajax'|page }}"></a></li>
                 <li class="{% if this.page.id == 'plugins' %}active{% endif %}"><a href="{{ 'plugins'|page }}">Plugin components</a></li> -->
             </ul>
         </div>
     </div>
-</nav>";s:5:"mtime";i:1628437269;s:6:"markup";s:1247:"<!-- Nav -->
+</nav>";s:5:"mtime";i:1629690977;s:6:"markup";s:1781:"<!-- Nav -->
 <nav id="layout-nav" class="navbar navbar-inverse navbar-fixed-top navbar-autohide" role="navigation">
     <div class="container">
         <div class="navbar-header">
@@ -36,6 +40,10 @@
             <ul class="nav navbar-nav">
                 <li class="separator hidden-xs"></li>
                 <li class="{% if this.page.id == 'home' %}active{% endif %}"><a href="{{ 'main_home'|page }}">Главная</a></li>
+                <li class="{% if this.page.id == 'aboutus' %}active{% endif %}"><a href="{{ 'about-us'|page }}">О нас</a></li>
+                <li class="{% if this.page.id == 'tours' %}active{% endif %}"><a href="{{ 'tours'|page }}">Туры</a></li>
+                <li class="{% if this.page.id == 'feedback' %}active{% endif %}"><a href="{{ 'feedback'|page }}">Отзывы</a></li>
+                <li class="{% if this.page.id == 'contacts' %}active{% endif %}"><a href="{{ 'contacts'|page }}">Контакты</a></li>
                 <!-- <li class="{% if this.page.id == 'ajax' %}active{% endif %}"><a href="{{ 'ajax'|page }}"></a></li>
                 <li class="{% if this.page.id == 'plugins' %}active{% endif %}"><a href="{{ 'plugins'|page }}">Plugin components</a></li> -->
             </ul>

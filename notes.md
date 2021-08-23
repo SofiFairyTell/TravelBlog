@@ -69,3 +69,5 @@
 ## Laravel
 
 > Laravel — бесплатный веб-фреймворк с открытым кодом, предназначенный для разработки с использованием архитектурной модели MVC.
+
+> [Native app with October cms?](https://leaderinternet.com/blog/build-native-app-october-cms)

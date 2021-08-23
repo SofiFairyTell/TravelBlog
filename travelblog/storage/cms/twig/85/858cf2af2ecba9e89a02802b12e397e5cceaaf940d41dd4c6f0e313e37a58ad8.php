@@ -41,7 +41,7 @@ class __TwigTemplate_52bd9115b279585d0e68438fe0de1446cc43c2846953221caa650144963
         ";
         // line 3
         $context['__cms_content_params'] = [];
-        echo $this->env->getExtension('Cms\Twig\Extension')->contentFunction("welcome.htm"        , $context['__cms_content_params']        );
+        echo $this->env->getExtension('Cms\Twig\Extension')->contentFunction("section_tourlist.htm"        , $context['__cms_content_params']        );
         unset($context['__cms_content_params']);
         // line 4
         echo "    </div>
@@ -67,7 +67,7 @@ class __TwigTemplate_52bd9115b279585d0e68438fe0de1446cc43c2846953221caa650144963
     {
         return new Source("<div class=\"jumbotron\">
     <div class=\"container\">
-        {% content \"welcome.htm\" %}
+        {% content \"section_tourlist.htm\" %}
     </div>
 </div>", "C:\\OpenServer\\domains\\TravelBlog-1\\travelblog/themes/demo/pages/main_home.htm", "");
     }
