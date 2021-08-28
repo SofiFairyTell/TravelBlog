@@ -12,8 +12,8 @@ use Twig\Sandbox\SecurityNotAllowedFunctionError;
 use Twig\Source;
 use Twig\Template;
 
-/* C:\OpenServer\domains\TravelBlog-1\travelblog/themes/demo/pages/main_home.htm */
-class __TwigTemplate_52bd9115b279585d0e68438fe0de1446cc43c2846953221caa6501449635a818 extends \Twig\Template
+/* C:\OpenServer\domains\TravelBlog-1\travelblog/themes/demo/pages/contacts.htm */
+class __TwigTemplate_5e4e024c2ebb067855eb6925de39500d99ad1c4ec3142f412705a323d3eb2a31 extends \Twig\Template
 {
     private $source;
     private $macros = [];
@@ -35,52 +35,32 @@ class __TwigTemplate_52bd9115b279585d0e68438fe0de1446cc43c2846953221caa650144963
     protected function doDisplay(array $context, array $blocks = [])
     {
         $macros = $this->macros;
-        // line 1
-        echo "<div class=\"jumbotron\">
-    <div class=\"container\">
-        ";
-        // line 3
-        $context['__cms_content_params'] = [];
-        echo $this->env->getExtension('Cms\Twig\Extension')->contentFunction("section_tourlist.htm"        , $context['__cms_content_params']        );
-        unset($context['__cms_content_params']);
-        // line 4
-        echo "    </div>
-</div>";
     }
 
     public function getTemplateName()
     {
-        return "C:\\OpenServer\\domains\\TravelBlog-1\\travelblog/themes/demo/pages/main_home.htm";
-    }
-
-    public function isTraitable()
-    {
-        return false;
+        return "C:\\OpenServer\\domains\\TravelBlog-1\\travelblog/themes/demo/pages/contacts.htm";
     }
 
     public function getDebugInfo()
     {
-        return array (  47 => 4,  43 => 3,  39 => 1,);
+        return array ();
     }
 
     public function getSourceContext()
     {
-        return new Source("<div class=\"jumbotron\">
-    <div class=\"container\">
-        {% content \"section_tourlist.htm\" %}
-    </div>
-</div>", "C:\\OpenServer\\domains\\TravelBlog-1\\travelblog/themes/demo/pages/main_home.htm", "");
+        return new Source("", "C:\\OpenServer\\domains\\TravelBlog-1\\travelblog/themes/demo/pages/contacts.htm", "");
     }
     
     public function checkSecurity()
     {
-        static $tags = array("content" => 3);
+        static $tags = array();
         static $filters = array();
         static $functions = array();
 
         try {
             $this->sandbox->checkSecurity(
-                ['content'],
+                [],
                 [],
                 []
             );

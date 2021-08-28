@@ -62,17 +62,49 @@ class __TwigTemplate_4704a40089d8493a5dfc98e9487682d4338d7c4923078ac6bdeac9037db
         echo "\"><a href=\"";
         echo $this->extensions['Cms\Twig\Extension']->pageFilter("main_home");
         echo "\">Главная</a></li>
-                <!-- <li class=\"";
+                <li class=\"";
         // line 17
-        if ((twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "page", [], "any", false, false, true, 17), "id", [], "any", false, false, true, 17) == "ajax")) {
+        if ((twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "page", [], "any", false, false, true, 17), "id", [], "any", false, false, true, 17) == "aboutus")) {
+            echo "active";
+        }
+        echo "\"><a href=\"";
+        echo $this->extensions['Cms\Twig\Extension']->pageFilter("about-us");
+        echo "\">О нас</a></li>
+                <li class=\"";
+        // line 18
+        if ((twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "page", [], "any", false, false, true, 18), "id", [], "any", false, false, true, 18) == "tours")) {
+            echo "active";
+        }
+        echo "\"><a href=\"";
+        echo $this->extensions['Cms\Twig\Extension']->pageFilter("tours");
+        echo "\">Туры</a></li>
+                <li class=\"";
+        // line 19
+        if ((twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "page", [], "any", false, false, true, 19), "id", [], "any", false, false, true, 19) == "feedback")) {
+            echo "active";
+        }
+        echo "\"><a href=\"";
+        echo $this->extensions['Cms\Twig\Extension']->pageFilter("feedback");
+        echo "\">Отзывы</a></li>
+                <li class=\"";
+        // line 20
+        if ((twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "page", [], "any", false, false, true, 20), "id", [], "any", false, false, true, 20) == "contacts")) {
+            echo "active";
+        }
+        echo "\"><a href=\"";
+        echo $this->extensions['Cms\Twig\Extension']->pageFilter("contacts");
+        echo "\">Контакты</a></li>
+                <!-- <li class=\"";
+        // line 21
+        if ((twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "page", [], "any", false, false, true, 21), "id", [], "any", false, false, true, 21) == "ajax")) {
             echo "active";
         }
         echo "\"><a href=\"";
         echo $this->extensions['Cms\Twig\Extension']->pageFilter("ajax");
         echo "\"></a></li>
                 <li class=\"";
-        // line 18
-        if ((twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "page", [], "any", false, false, true, 18), "id", [], "any", false, false, true, 18) == "plugins")) {
+        // line 22
+        if ((twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "page", [], "any", false, false, true, 22), "id", [], "any", false, false, true, 22) == "plugins")) {
             echo "active";
         }
         echo "\"><a href=\"";
@@ -96,7 +128,7 @@ class __TwigTemplate_4704a40089d8493a5dfc98e9487682d4338d7c4923078ac6bdeac9037db
 
     public function getDebugInfo()
     {
-        return array (  75 => 18,  67 => 17,  59 => 16,  51 => 11,  39 => 1,);
+        return array (  107 => 22,  99 => 21,  91 => 20,  83 => 19,  75 => 18,  67 => 17,  59 => 16,  51 => 11,  39 => 1,);
     }
 
     public function getSourceContext()
@@ -117,6 +149,10 @@ class __TwigTemplate_4704a40089d8493a5dfc98e9487682d4338d7c4923078ac6bdeac9037db
             <ul class=\"nav navbar-nav\">
                 <li class=\"separator hidden-xs\"></li>
                 <li class=\"{% if this.page.id == 'home' %}active{% endif %}\"><a href=\"{{ 'main_home'|page }}\">Главная</a></li>
+                <li class=\"{% if this.page.id == 'aboutus' %}active{% endif %}\"><a href=\"{{ 'about-us'|page }}\">О нас</a></li>
+                <li class=\"{% if this.page.id == 'tours' %}active{% endif %}\"><a href=\"{{ 'tours'|page }}\">Туры</a></li>
+                <li class=\"{% if this.page.id == 'feedback' %}active{% endif %}\"><a href=\"{{ 'feedback'|page }}\">Отзывы</a></li>
+                <li class=\"{% if this.page.id == 'contacts' %}active{% endif %}\"><a href=\"{{ 'contacts'|page }}\">Контакты</a></li>
                 <!-- <li class=\"{% if this.page.id == 'ajax' %}active{% endif %}\"><a href=\"{{ 'ajax'|page }}\"></a></li>
                 <li class=\"{% if this.page.id == 'plugins' %}active{% endif %}\"><a href=\"{{ 'plugins'|page }}\">Plugin components</a></li> -->
             </ul>

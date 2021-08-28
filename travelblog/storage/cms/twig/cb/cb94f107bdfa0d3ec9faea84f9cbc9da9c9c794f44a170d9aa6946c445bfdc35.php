@@ -12,8 +12,8 @@ use Twig\Sandbox\SecurityNotAllowedFunctionError;
 use Twig\Source;
 use Twig\Template;
 
-/* C:\OpenServer\domains\TravelBlog-1\travelblog/themes/demo/pages/main_home.htm */
-class __TwigTemplate_52bd9115b279585d0e68438fe0de1446cc43c2846953221caa6501449635a818 extends \Twig\Template
+/* C:\OpenServer\domains\TravelBlog-1\travelblog/themes/demo/pages/tours.htm */
+class __TwigTemplate_6606d88386be10fd7dc7711530e6544455501cda4e7104b1038fb433c4a5884c extends \Twig\Template
 {
     private $source;
     private $macros = [];
@@ -41,7 +41,7 @@ class __TwigTemplate_52bd9115b279585d0e68438fe0de1446cc43c2846953221caa650144963
         ";
         // line 3
         $context['__cms_content_params'] = [];
-        echo $this->env->getExtension('Cms\Twig\Extension')->contentFunction("section_tourlist.htm"        , $context['__cms_content_params']        );
+        echo $this->env->getExtension('Cms\Twig\Extension')->contentFunction("section_news.htm"        , $context['__cms_content_params']        );
         unset($context['__cms_content_params']);
         // line 4
         echo "    </div>
@@ -50,7 +50,7 @@ class __TwigTemplate_52bd9115b279585d0e68438fe0de1446cc43c2846953221caa650144963
 
     public function getTemplateName()
     {
-        return "C:\\OpenServer\\domains\\TravelBlog-1\\travelblog/themes/demo/pages/main_home.htm";
+        return "C:\\OpenServer\\domains\\TravelBlog-1\\travelblog/themes/demo/pages/tours.htm";
     }
 
     public function isTraitable()
@@ -67,9 +67,9 @@ class __TwigTemplate_52bd9115b279585d0e68438fe0de1446cc43c2846953221caa650144963
     {
         return new Source("<div class=\"jumbotron\">
     <div class=\"container\">
-        {% content \"section_tourlist.htm\" %}
+        {% content \"section_news.htm\" %}
     </div>
-</div>", "C:\\OpenServer\\domains\\TravelBlog-1\\travelblog/themes/demo/pages/main_home.htm", "");
+</div>", "C:\\OpenServer\\domains\\TravelBlog-1\\travelblog/themes/demo/pages/tours.htm", "");
     }
     
     public function checkSecurity()
