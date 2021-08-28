@@ -1,0 +1,70 @@
+1630176356a:1:{s:10:"header.htm";a:6:{s:8:"fileName";s:10:"header.htm";s:7:"content";s:1764:"==
+<nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                <i class="fa fa-bars"></i>
+            </button>
+            <a class="navbar-brand" href="{{ 'home'|page }}">
+                <h1 class="upper">TRAVELTOUR</h1>
+            </a>
+        </div>
+        {% if this.page.baseFileName != '404' and  this.page.baseFileName != 'error' and this.page.baseFileName != 'maintenance' %}
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#intro">Главная</a></li>
+                <li><a href="#about">О нас</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Туры <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Горные походы</a></li>
+                        <li><a href="#">Путешествие</a></li>
+                        <li><a href="#">Речные туры</a></li>
+                        <li><a href="#">Велопоходы</a></li>
+                    </ul>
+                </li>
+                <li><a href="#service">Отзывы</a></li>
+                <li><a href="#contact">Контакты</a></li>
+
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+        {% endif %}
+    </div>
+    <!-- /.container -->
+</nav>";s:5:"mtime";i:1630175752;s:6:"markup";s:1760:"<nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                <i class="fa fa-bars"></i>
+            </button>
+            <a class="navbar-brand" href="{{ 'home'|page }}">
+                <h1 class="upper">TRAVELTOUR</h1>
+            </a>
+        </div>
+        {% if this.page.baseFileName != '404' and  this.page.baseFileName != 'error' and this.page.baseFileName != 'maintenance' %}
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#intro">Главная</a></li>
+                <li><a href="#about">О нас</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Туры <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Горные походы</a></li>
+                        <li><a href="#">Путешествие</a></li>
+                        <li><a href="#">Речные туры</a></li>
+                        <li><a href="#">Велопоходы</a></li>
+                    </ul>
+                </li>
+                <li><a href="#service">Отзывы</a></li>
+                <li><a href="#contact">Контакты</a></li>
+
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+        {% endif %}
+    </div>
+    <!-- /.container -->
+</nav>";s:4:"code";N;s:17:"_PARSER_ERROR_INI";s:0:"";}}

@@ -1,0 +1,29 @@
+name: TravelTour
+code: TravelTour
+description: ""
+author: Fabricio Rabelo & Bootstrap Zero
+homepage: 'http://fabriciorabelo.com/'
+
+# [...]
+
+form:
+    fields:
+        site_name:
+            label: TravelTour
+            comment: The website name as it should appear on the front-end
+            default: TravelTour
+    tabs:
+        fields:
+            meta_title:
+                label: Meta title
+                tab: Metadata
+                default: TravelTour
+
+            meta_keywords:
+                label: Meta keywords
+                tab: Metadata
+
+            meta_description:
+                label: Meta description
+                tab: Metadata
+                default: TravelTour 

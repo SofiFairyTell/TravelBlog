@@ -1,0 +1,31 @@
+1630176264a:1:{s:10:"footer.htm";a:5:{s:8:"fileName";s:10:"footer.htm";s:7:"content";s:538:"<footer>
+ <div class="container">
+     <div class="row">
+         <div class="col-md-12 col-lg-12">
+             <div class="wow shake" data-wow-delay="0.4s">
+             <div class="page-scroll marginbot-30">
+                 <a href="#intro" id="totop" class="btn btn-circle">
+                     <i class="fa fa-angle-double-up animated"></i>
+                 </a>
+             </div>
+             </div>
+             <p>&copy;Copyright  2021 - {{ "now"|date("Y") }} Sofi Fairy-Tell </p>
+         </div>
+     </div>
+ </div>
+</footer>";s:5:"mtime";i:1630165557;s:6:"markup";s:538:"<footer>
+ <div class="container">
+     <div class="row">
+         <div class="col-md-12 col-lg-12">
+             <div class="wow shake" data-wow-delay="0.4s">
+             <div class="page-scroll marginbot-30">
+                 <a href="#intro" id="totop" class="btn btn-circle">
+                     <i class="fa fa-angle-double-up animated"></i>
+                 </a>
+             </div>
+             </div>
+             <p>&copy;Copyright  2021 - {{ "now"|date("Y") }} Sofi Fairy-Tell </p>
+         </div>
+     </div>
+ </div>
+</footer>";s:4:"code";N;}}
